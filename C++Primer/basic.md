@@ -1,5 +1,9 @@
 > 对应章节CH1--Ch6
 
+
+
+
+
 ## 变量和基本数据类型
 
 ### 算数类型
@@ -21,9 +25,29 @@
 
 > 静态类型指的是在编译的时候进行类型检查,常见的静态类型语言有C++,java等,动态类型语言指的是在运行的时候动态判断变量类型,如python
 
+#### 声明(declaration)&&定义(defination)
+
+`extern`关键字用来声明变量，声明的过程中不能赋初值：
+
+```C++
+extern int a;//声明
+extern int b = 1;//定义
+int c = 2;//定义
+```
+
+> 变量可以被多次声明，但是只能被定义一次
+
+
+
+### 字面值常量
+
+字面值常量(literal)就是通常说的具体的数据，如`0xff,23.23L,10E-3`等等
+
+
+
 ### 引用(reference)
 
-引用必须初始化
+一般的引用指的是左值引用，引用**必须初始化**
 
 ```c++
 int a = 0;
@@ -47,9 +71,10 @@ int *c = &a;//c是a的地址
 
 ```C++
 int *p1 = nullptr;
-int *p2 = 0//需要#include<cstdlib>
+int *p2 = 0//需要#include<cstdlib>（#define NULL 0 ）
 ```
 
+在C++11及以后应尽量使用`nullptr`而不是`NULL`
 > 赋值永远改变的是等号左边的对象,任何非零指针的条件值都是true
 
 `void *`是一种特殊的指针类型,可以用与存放各种类型的指针变量
@@ -58,8 +83,8 @@ int *p2 = 0//需要#include<cstdlib>
 
 ```C++
 int a = 0;
-int*b = a;
-int* &c = b;c是对指针变量b的引用
+int *b = a;
+int *&c = b;//c是对指针变(int *)量b的引用
 ```
 
 ### `const`修饰符
@@ -84,7 +109,6 @@ b = 2;//错误，常量不能赋值
 
 int d = 3;
 const int &e = d;//正确，不允许通过引用e来修改d的值
-
 ```
 
 #### `const `与指针
@@ -278,34 +302,3 @@ try{
 ```
 
 C++标准库定义了一组类用于报告标准函数中遇到的问题
-
-
-
-## 函数
-
-### 参数传递
-
-> 当参数是引用类型时候，我们说它对应的实参被引用传递（passed by reference）
->
-> C++中建议用引用类型来代替指针进行对函数外部对象的访问
-
-```c++
-void fun(int &a){}//接受一个int型的引用
-int fun2(const string &str){}
-//下面三种引用等效
-void fun(int *);
-void fun(intp[]);
-void fun(int[10]);//10表示的是期望的数组长度，但是实际上不一定是10个
-
-void fun(int (&arr)[10]);//数组的引用
-int fun(int (*matrix)[10])；//传入的是二维数组
-```
-
-### `main`函数
-
-```c++
-int main();
-int main(void);
-int main(int argc,char **argv);
-
-```
