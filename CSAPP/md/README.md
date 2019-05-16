@@ -8,7 +8,7 @@
 -  信息的表示和处理![](http://progressed.io/bar/100)
 -  程序的机器级表示![](http://progressed.io/bar/100)
 -  处理器的体系结构![](http://progressed.io/bar/40)
--  优化程序性能          ![](http://progressed.io/bar/20) 
+-  优化程序性能          ![](http://progressed.io/bar/100) 
 -  存储器体系结构     ![](http://progressed.io/bar/0)
 -  链接                          ![](http://progressed.io/bar/0)
 -  异常控制流              ![](http://progressed.io/bar/0)
@@ -20,7 +20,7 @@
 ### labs进度
 
 - Data Lab   ![](http://progressed.io/bar/50)
-- Bomb  Lab![](http://progressed.io/bar/0)
+- Bomb  Lab![](http://progressed.io/bar/10)
 - Attack Lab![](http://progressed.io/bar/0)
 - Buffer Lab![](http://progressed.io/bar/0)
 - ...              ![](http://progressed.io/bar/0)
