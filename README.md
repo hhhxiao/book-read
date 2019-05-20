@@ -4,8 +4,8 @@
 
 ## book-list
 
-- c++ primer![](http://progressed.io/bar/83)
-- CSAPP![](http://progressed.io/bar/45)
-- TCP/IP入门经典![](http://progressed.io/bar/40)
+- c++ primer![](http://progressed.io/bar/85)
+- CSAPP![](http://progressed.io/bar/51)
+- TCP/IP入门经典![](http://progressed.io/bar/48)
 - others![](http://progressed.io/bar/100)
 
