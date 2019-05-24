@@ -9,7 +9,7 @@
 -  程序的机器级表示![](http://progressed.io/bar/100)
 -  处理器的体系结构![](http://progressed.io/bar/40)
 -  优化程序性能          ![](http://progressed.io/bar/100) 
--  存储器体系结构     ![](http://progressed.io/bar/50)
+-  存储器体系结构     ![](http://progressed.io/bar/70)
 -  链接                          ![](http://progressed.io/bar/20)
 -  异常控制流              ![](http://progressed.io/bar/0)
 -  虚拟内存                  ![](http://progressed.io/bar/0)
