@@ -7,9 +7,9 @@
 -  计算机系统漫游    ![](http://progressed.io/bar/100)
 -  信息的表示和处理![](http://progressed.io/bar/100)
 -  程序的机器级表示![](http://progressed.io/bar/100)
--  处理器的体系结构![](http://progressed.io/bar/40)
+-  处理器的体系结构![](http://progressed.io/bar/40)（涉及到时序逻辑了，数电学完再看吧。。。）
 -  优化程序性能          ![](http://progressed.io/bar/100) 
--  存储器体系结构     ![](http://progressed.io/bar/70)
+-  存储器体系结构     ![](http://progressed.io/bar/100)
 -  链接                          ![](http://progressed.io/bar/20)
 -  异常控制流              ![](http://progressed.io/bar/0)
 -  虚拟内存                  ![](http://progressed.io/bar/0)
