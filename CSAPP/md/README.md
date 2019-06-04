@@ -11,7 +11,7 @@
 -  优化程序性能          ![](http://progressed.io/bar/100) 
 -  存储器体系结构     ![](http://progressed.io/bar/100)
 -  链接                          ![](http://progressed.io/bar/100)
--  异常控制流              ![](http://progressed.io/bar/0)
+-  异常控制流              ![](http://progressed.io/bar/30)（以后linux编程专门学后面的进程和信号部分）
 -  虚拟内存                  ![](http://progressed.io/bar/0)
 -  系统级IO                  ![](http://progressed.io/bar/0)
 -  网络编程                 ![](http://progressed.io/bar/0)
