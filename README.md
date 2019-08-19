@@ -7,5 +7,5 @@
 - c++ primer![](http://progressed.io/bar/85)
 - CSAPP![](http://progressed.io/bar/70)
 - TCP/IP入门经典![](http://progressed.io/bar/100)
-- others![](http://progressed.io/bar/100)
+- others![](http://progressed.io/bar/100)s
 
